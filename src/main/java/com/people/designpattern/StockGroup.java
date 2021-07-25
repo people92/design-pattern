@@ -7,7 +7,7 @@ public enum StockGroup {
     APPLE(StockName.appleKoreanName,StockName.appleStockId),
     NAVER("네이버","1002"),
     AIRBNB("에어비앤비","1003"),
-    SAMSUNG("삼성","1004"),
+    SAMSUNG(StockName.samsungKoreaName,StockName.samsungStockId),
     EMPTY("없음", "0000");
 
     private String koreanName;

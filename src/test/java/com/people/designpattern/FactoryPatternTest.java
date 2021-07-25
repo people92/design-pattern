@@ -14,6 +14,7 @@ public class FactoryPatternTest {
 
     @Test
     public void beanInjectionTest() {
+
         StockService appleService = stockServiceFactory.getSerivce(APPLE);
         StockService airbnbService = stockServiceFactory.getSerivce(AIRBNB);
         StockService samsungService = stockServiceFactory.getSerivce(SAMSUNG);

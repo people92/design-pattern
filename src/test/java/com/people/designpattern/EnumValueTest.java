@@ -11,9 +11,10 @@ public class EnumValueTest {
     @Test
     public void getEnumValueFromYml() {
 
-        System.out.println(StockGroup.APPLE.getKoreanName());
-        System.out.println(StockGroup.APPLE.getStockId());
         Assertions.assertEquals(StockGroup.APPLE.getKoreanName(), "애플");
         Assertions.assertEquals(StockGroup.APPLE.getStockId(), "1001");
+
+        Assertions.assertEquals(StockGroup.SAMSUNG.getKoreanName(), "삼성");
+        Assertions.assertEquals(StockGroup.SAMSUNG.getStockId(), "0010");
     }
 }

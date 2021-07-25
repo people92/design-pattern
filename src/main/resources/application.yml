@@ -2,3 +2,6 @@ stock:
   apple:
     korean-name: 애플
     stock-id: 1001
+  samsung:
+    korean-name: 삼성
+    stock-id: '0010'
