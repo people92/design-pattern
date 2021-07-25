@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public enum StockGroup {
 
-    APPLE("애플","1001"),
+    APPLE(StockName.appleKoreanName,StockName.appleStockId),
     NAVER("네이버","1002"),
     AIRBNB("에어비앤비","1003"),
     SAMSUNG("삼성","1004"),
@@ -26,5 +26,9 @@ public enum StockGroup {
 
     public String getKoreanName() {
         return koreanName;
+    }
+
+    public String getStockId() {
+        return stockId;
     }
 }
