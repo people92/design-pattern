@@ -5,4 +5,6 @@ public interface StockService {
     StockGroup getStockGroup();
 
     String findKoreanName();
+
+    String findCommonType();
 }

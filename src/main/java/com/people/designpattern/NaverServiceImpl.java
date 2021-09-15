@@ -3,7 +3,7 @@ package com.people.designpattern;
 import org.springframework.stereotype.Service;
 
 @Service
-public class NaverServiceImpl implements StockService{
+public class NaverServiceImpl extends StockAbstractFactory {
     @Override
     public StockGroup getStockGroup() {
         return StockGroup.NAVER;

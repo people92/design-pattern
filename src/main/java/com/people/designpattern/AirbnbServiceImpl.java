@@ -3,7 +3,7 @@ package com.people.designpattern;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AirbnbServiceImpl implements StockService{
+public class AirbnbServiceImpl extends StockAbstractFactory {
     @Override
     public StockGroup getStockGroup() {
         return StockGroup.AIRBNB;

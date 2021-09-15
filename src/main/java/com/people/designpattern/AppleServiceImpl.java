@@ -3,7 +3,7 @@ package com.people.designpattern;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AppleServiceImpl implements StockService{
+public class AppleServiceImpl extends StockAbstractFactory {
     @Override
     public StockGroup getStockGroup() {
         return StockGroup.APPLE;
